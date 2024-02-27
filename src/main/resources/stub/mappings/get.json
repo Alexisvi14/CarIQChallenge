@@ -1,0 +1,13 @@
+{
+  "request": {
+    "url": "/pet/findByStatus?status=sold",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "[{  \"id\": 1234,\n    \"category\": {\n      \"id\": 1,\n      \"name\": \"Dog\"\n    },\n    \"name\": Almendra,\n    \"photoUrls\": [],\n    \"tags\": [\n      {\n        \"id\": 0,\n        \"name\": \"string\"\n      }\n    ],\n    \"status\": \"sold\"\n  },\n  {\n    \"id\": 12345,\n    \"category\": {\n      \"id\": 2,\n      \"name\": Cat\n    },\n    \"name\": Simon,\n    \"photoUrls\": [],\n    \"tags\": [\n      {\n        \"id\": 0,\n        \"name\": \"string\"\n      }\n    ],\n    \"status\": \"sold\"\n  }\n]"
+  }
+}

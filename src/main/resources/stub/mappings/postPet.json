@@ -1,0 +1,13 @@
+{
+  "request": {
+    "url": "/pet",
+    "method": "POST"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"id\":1414,\"category\":{\"id\":1,\"name\":\"Dog\"},\"name\":\"Bronny\",\"photoUrls\":[],\"tags\":[{\"id\":0,\"name\":\"string\"}],\"status\":\"sold\"}"
+  }
+}

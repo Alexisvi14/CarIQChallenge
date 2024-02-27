@@ -1,0 +1,13 @@
+{
+  "request": {
+    "url": "/pet/1396",
+    "method": "PUT"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"id\":1396,\"category\":{\"id\":2,\"name\":\"Cat\"},\"name\":\"Minnie\",\"photoUrls\":[],\"tags\":[{\"id\":0,\"name\":\"string\"}],\"status\":\"available\"}"
+  }
+}
