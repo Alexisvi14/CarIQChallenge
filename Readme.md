@@ -6,7 +6,7 @@ certain parameters.
 ## Installation
 
 ```sh
-git clone ---
+git clone https://github.com/Alexisvi14/CarIQChallenge.git
 ```
 
 ## Usage example
@@ -35,10 +35,9 @@ Then to execute the test suite run on the command line:
 
 ## The test suite
 
-This suite is composed of 4 test
+This suite is composed of 3 test
 
-- Post test with assertions over the schema, the headers, and the response code 201 created.
-- Put test with assertions over the schema, the headers, and the response code 200 ok.
-- Get test with assertions over parameters, headers and the response code 200 ok.
-- Get test made to fail, waiting for a code expecting 400 but receiving 200 ok(this was a misconfiguration over
-  the https://petstore.swagger.io as well).
+- Post test with assertions over the response code and other fields from the body of the response.
+- Put test with assertions over the response code and other fields from the body of the response.
+- Get test with assertions over the response code and different fields from responses.
+
